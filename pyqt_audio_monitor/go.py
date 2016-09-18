@@ -16,6 +16,8 @@ class ExampleApp(QtGui.QMainWindow, ui_main.Ui_MainWindow):
         self.maxFFT = 0
         self.maxPCM = 0
         self.ear = SWHear.SWHear(device=8)
+        self.maxFFT=0
+        self.maxPCM=0
         #For mac users, you have to determine what your output audio device is.
         #To do this, first download and install soundflower
         #then, go to your system preferences, audio, and then select soundflower
